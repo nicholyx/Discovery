@@ -28,7 +28,6 @@ import com.nepxion.discovery.common.redis.proccessor.RedisProcessor;
 import com.nepxion.discovery.common.zookeeper.proccessor.ZookeeperProcessor;
 import com.nepxion.discovery.plugin.strategy.constant.StrategyConstant;
 import com.nepxion.discovery.plugin.strategy.zuul.constant.ZuulStrategyConstant;
-import com.nepxion.discovery.plugin.strategy.zuul.context.ZuulStrategyContextListener;
 import com.nepxion.discovery.plugin.strategy.zuul.filter.DefaultZuulStrategyClearFilter;
 import com.nepxion.discovery.plugin.strategy.zuul.filter.DefaultZuulStrategyRouteFilter;
 import com.nepxion.discovery.plugin.strategy.zuul.filter.ZuulStrategyClearFilter;
@@ -81,11 +80,6 @@ public class ZuulStrategyAutoConfiguration {
     @ConditionalOnProperty(value = StrategyConstant.SPRING_APPLICATION_STRATEGY_HYSTRIX_THREADLOCAL_SUPPORTED, matchIfMissing = false)
     public ZuulStrategyCallableWrapper zuulStrategyCallableWrapper() {
         return new DefaultZuulStrategyCallableWrapper();
-    }
-
-    @Bean
-    public ZuulStrategyContextListener zuulStrategyContextListener() {
-        return new ZuulStrategyContextListener();
     }
 
     @ConditionalOnClass(NacosProcessor.class)

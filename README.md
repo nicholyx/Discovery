@@ -11,30 +11,26 @@
 
 如果您觉得本框架具有一定的参考价值和借鉴意义，请帮忙在页面右上角 [**Star**]
 
-## 简介
-
-### 作者简介
+![](http://nepxion.gitee.io/discovery/docs/icon-doc/star1.png) 首席作者简介
 - Nepxion开源社区创始人
 - 2020年阿里巴巴中国云原生峰会出品人
 - 2020年被Nacos和Spring Cloud Alibaba纳入相关开源项目
 - 2021年阿里巴巴技术峰会上海站演讲嘉宾
 - 2021年荣获陆奇博士主持的奇绩资本，进行风险投资的关注和调研
 - 2021年入选Gitee最有价值开源项目
-- 阿里巴巴官方书籍《Nacos架构与原理》作者之一
 - Nacos Group Member、Spring Cloud Alibaba Member
 - Spring Cloud Alibaba、Nacos、Sentinel、OpenTracing Committer & Contributor
 
 <img src="http://nepxion.gitee.io/discovery/docs/discovery-doc/CertificateGVP.jpg" width="43%"><img src="http://nepxion.gitee.io/discovery/docs/discovery-doc/AwardNacos1.jpg" width="28%"><img src="http://nepxion.gitee.io/discovery/docs/discovery-doc/AwardSCA1.jpg" width="28%">
 
-### 商业合作
+![](http://nepxion.gitee.io/discovery/docs/icon-doc/star4.png) 商业化合作
 
 ① Discovery系列
 
 | 框架名称 | 框架版本 | 支持Spring Cloud版本 | 使用许可 |
 | --- | --- | --- | --- |
 | Discovery | 1.x.x ~ 6.x.x | Camden ~ Hoxton | 开源，永久免费 |
-| DiscoveryX | 7.x.x | 2020 | 闭源，商业许可 |
-| DiscoveryX | 8.x.x | 2021 | 闭源，商业许可 |
+| DiscoveryX | 7.x.x | 202x | 闭源，商业许可 |
 
 ② Polaris系列
 
@@ -50,25 +46,22 @@ Polaris为Discovery高级定制版，特色功能
 | 框架名称 | 框架版本 | 支持Discovery版本 | 支持Spring Cloud版本 | 使用许可 |
 | --- | --- | --- | --- | --- |
 | Polaris | 1.x.x | 6.x.x | Finchley ~ Hoxton | 闭源，商业许可 |
-| Polaris | 2.x.x | 7.x.x | 2020 | 闭源，商业许可 |
-| Polaris | 3.x.x | 8.x.x | 2021 | 闭源，商业许可 |
+| Polaris | 2.x.x | 7.x.x | 202x | 闭源，商业许可 |
 
 有商业版需求的企业和用户，请添加微信1394997，联系作者，洽谈合作事宜
 
-### 入门资料
-
 ![](http://nepxion.gitee.io/discovery/docs/discovery-doc/Logo64.png) Discovery【探索】企业级云原生微服务开源解决方案
 
-① 快速入门
-- [快速入门Github版](https://github.com/Nepxion/Discovery/wiki)
-- [快速入门Gitee版](https://gitee.com/Nepxion/Discovery/wikis/pages)
-
-② 解决方案
+① 解决方案
 - [解决方案WIKI版](http://nepxion.com/discovery)
 - [解决方案PPT版](http://nepxion.gitee.io/discovery/docs/link-doc/discovery-ppt.html)
 
-③ 平台界面
+② 平台界面
 - [平台界面WIKI版](http://nepxion.com/discovery-platform)
+
+③ 快速入门
+- [快速入门Github版](https://github.com/Nepxion/Discovery/wiki)
+- [快速入门Gitee版](https://gitee.com/Nepxion/Discovery/wikis/pages)
 
 ④ 框架源码
 - [框架源码Github版](https://github.com/Nepxion/Discovery)
@@ -82,7 +75,7 @@ Polaris为Discovery高级定制版，特色功能
 - 对于入门级玩家，参考[6.x.x指南示例极简版](https://github.com/Nepxion/DiscoveryGuide/tree/6.x.x-simple)，分支为6.x.x-simple
 - 对于熟练级玩家，参考[6.x.x指南示例精进版](https://github.com/Nepxion/DiscoveryGuide/tree/6.x.x)，分支为6.x.x。除上述《极简版》功能外，涉及到指南篇里的绝大多数高级功能
 - 对于骨灰级玩家，参考[6.x.x指南示例高级版](https://github.com/Nepxion/DiscoveryGuide/tree/6.x.x-complex)，分支为6.x.x-complex。除上述《精进版》功能外，涉及到指南篇里的ActiveMQ、MongoDB、RabbitMQ、Redis、RocketMQ、MySQL等高级调用链和蓝绿灰度调用链的整合
-- 上述指南实例分支是针对Spring Cloud Finchley ~ Hoxton版本。对于Spring Cloud 202x版本，参考[7.x.x ~ 8.x.x指南示例精进版](https://github.com/Nepxion/DiscoveryGuide/tree/master)，分支为master
+- 上述指南实例分支是针对Spring Cloud旧版本。对于Spring Cloud 202x版本，参考[7.x.x指南示例精进版](https://github.com/Nepxion/DiscoveryGuide/tree/master)，分支为master
 
 ![](http://nepxion.gitee.io/discovery/docs/polaris-doc/Logo64.png) Polaris【北极星】企业级云原生微服务商业解决方案
 
@@ -98,8 +91,8 @@ Polaris为Discovery高级定制版，特色功能
 - [指南示例源码Gitee版](https://gitee.com/polaris-paas/polaris-guide)
 
 ④ 指南示例说明
-- Spring Cloud Finchley ~ Hoxton版本，参考[1.x.x指南示例](https://github.com/polaris-paas/polaris-guide/tree/1.x.x)，分支为1.x.x
-- Spring Cloud 202x版本，参考[2.x.x ~ 3.x.x指南示例](https://github.com/polaris-paas/polaris-guide/tree/master)，分支为master
+- Spring Cloud旧版本，参考[1.x.x指南示例](https://github.com/polaris-paas/polaris-guide/tree/1.x.x)，分支为1.x.x
+- Spring Cloud新版本，参考[2.x.x指南示例](https://github.com/polaris-paas/polaris-guide/tree/master)，分支为master
 
 ![](http://nepxion.gitee.io/discovery/docs/icon-doc/Logo64.png) Discovery【探索】和Polaris【北极星】架构体系
 
@@ -135,6 +128,8 @@ Polaris为Discovery高级定制版，特色功能
 
 ![](http://nepxion.gitee.io/discovery/docs/polaris-doc/Config.jpg)
 
+## 简介
+
 ### 诞生故事
 - 2017年12月开始筹划
 - 2018年03月开始编码
@@ -145,8 +140,7 @@ Polaris为Discovery高级定制版，特色功能
 - 2018年07月发布v4.0.0，支持Finchley版
 - 2019年04月发布v5.0.0，支持Greenwich版
 - 2020年04月发布v6.0.0，支持Hoxton版
-- 2021年04月完成v7.0.0，支持2020版
-- 2022年04月完成v8.0.0，支持2021版
+- 2021年04月完成v7.0.0，支持202x版
 
 ### 功能概述
 Discovery【探索】微服务框架，基于Spring Cloud & Spring Cloud Alibaba，Discovery服务注册发现、Ribbon & Spring Cloud LoadBalancer负载均衡、Feign & RestTemplate & WebClient调用、Spring Cloud Gateway & Zuul过滤等组件全方位增强的企业级微服务开源解决方案，更贴近企业级需求，更具有企业级的插件引入、开箱即用特征
@@ -193,7 +187,7 @@ Discovery【探索】微服务框架，基于Spring Cloud & Spring Cloud Alibaba
 - 全链路蓝绿灰度发布容灾
     - 发布失败下的版本故障转移
     - 并行发布下的版本偏好
-- 服务无损下线，实时性的流量绝对无损
+- 服务下线场景下全链路蓝绿灰度发布，实时性的流量绝对无损
     - 全局唯一ID屏蔽
     - IP地址和端口屏蔽
 - 异步场景下全链路蓝绿灰度发布
@@ -217,7 +211,6 @@ Discovery【探索】微服务框架，基于Spring Cloud & Spring Cloud Alibaba
 - 全链路环境隔离和路由
     - 全链路环境隔离
     - 全链路环境路由
-- 全链路区域调试路由
 - 全链路可用区亲和性隔离和路由
     - 全链路可用区亲和性隔离
     - 全链路可用区亲和性路由
@@ -270,20 +263,17 @@ Discovery【探索】微服务框架，基于Spring Cloud & Spring Cloud Alibaba
 
 | 框架版本 | 框架分支 | 框架状态 | Spring Cloud版本 | Spring Boot版本 | Spring Cloud Alibaba版本 |
 | --- | --- | --- | --- | --- | --- |
-| 8.0.0<br>商业版 | DiscoveryX/master | ![](http://nepxion.gitee.io/discovery/docs/icon-doc/confirm_24.png) | 2021.x.x | 2.7.x<br>2.6.x | 2021.x.x.x |
-| 7.0.0<br>商业版 | DiscoveryX/7.x.x | ![](http://nepxion.gitee.io/discovery/docs/icon-doc/confirm_24.png) | 2020.x.x | 2.5.x<br>2.4.1 `↑` | 2021.x |
-| 6.14.0 | Discovery/6.x.x | ![](http://nepxion.gitee.io/discovery/docs/icon-doc/confirm_24.png) | Hoxton.SR5 `↑`<br>Hoxton<br>Greenwich<br>Finchley | 2.3.x.RELEASE<br>2.2.x.RELEASE<br>2.1.x.RELEASE<br>2.0.x.RELEASE | 2.2.7.RELEASE `↑` |
-| 6.12.2 `↓` | Discovery/6.x.x | ![](http://nepxion.gitee.io/discovery/docs/icon-doc/confirm_24.png) | Hoxton.SR5 `↑`<br>Hoxton<br>Greenwich<br>Finchley | 2.3.x.RELEASE<br>2.2.x.RELEASE<br>2.1.x.RELEASE<br>2.0.x.RELEASE | 2.2.6.RELEASE `↓`<br>2.1.x.RELEASE<br>2.0.x.RELEASE |
-| ~~5.6.0~~ | ~~Discovery/5.x.x~~ | ![](http://nepxion.gitee.io/discovery/docs/icon-doc/delete_24.png) | Greenwich | 2.1.x.RELEASE | 2.1.x.RELEASE |
-| ~~4.15.0~~ | ~~Discovery/4.x.x~~ | ![](http://nepxion.gitee.io/discovery/docs/icon-doc/delete_24.png) | Finchley | 2.0.x.RELEASE | 2.0.x.RELEASE |
-| 3.31.0 | Discovery/3.x.x | ![](http://nepxion.gitee.io/discovery/docs/icon-doc/arrow_up_24.png) | Edgware | 1.5.x.RELEASE | 1.5.x.RELEASE |
-| ~~2.0.x~~ | ~~Discovery/2.x.x~~ | ![](http://nepxion.gitee.io/discovery/docs/icon-doc/delete_24.png) | Dalston | 1.x.x.RELEASE | 1.5.x.RELEASE |
-| ~~1.0.x~~ | ~~Discovery/1.x.x~~ | ![](http://nepxion.gitee.io/discovery/docs/icon-doc/delete_24.png) | Camden | 1.x.x.RELEASE | 1.5.x.RELEASE |
+| 7.0.0<br>商业版 | master | ![](http://nepxion.gitee.io/discovery/docs/icon-doc/confirm_24.png) | 202x.x.x | 2.5.x<br>2.4.1 `↑` | 202x.x |
+| 6.12.1 | 6.x.x | ![](http://nepxion.gitee.io/discovery/docs/icon-doc/confirm_24.png) | Hoxton.SR5 `↑`<br>Hoxton<br>Greenwich<br>Finchley | 2.3.x.RELEASE<br>2.2.x.RELEASE<br>2.1.x.RELEASE<br>2.0.x.RELEASE | 2.2.x.RELEASE<br>2.2.x.RELEASE<br>2.1.x.RELEASE<br>2.0.x.RELEASE |
+| ~~5.6.0~~ | ~~5.x.x~~ | ![](http://nepxion.gitee.io/discovery/docs/icon-doc/delete_24.png) | Greenwich | 2.1.x.RELEASE | 2.1.x.RELEASE |
+| ~~4.15.0~~ | ~~4.x.x~~ | ![](http://nepxion.gitee.io/discovery/docs/icon-doc/delete_24.png) | Finchley | 2.0.x.RELEASE | 2.0.x.RELEASE |
+| 3.28.1 | 3.x.x | ![](http://nepxion.gitee.io/discovery/docs/icon-doc/arrow_up_24.png) | Edgware | 1.5.x.RELEASE | 1.5.x.RELEASE |
+| ~~2.0.x~~ | ~~2.x.x~~ | ![](http://nepxion.gitee.io/discovery/docs/icon-doc/delete_24.png) | Dalston | 1.x.x.RELEASE | 1.5.x.RELEASE |
+| ~~1.0.x~~ | ~~1.x.x~~ | ![](http://nepxion.gitee.io/discovery/docs/icon-doc/delete_24.png) | Camden | 1.x.x.RELEASE | 1.5.x.RELEASE |
 
 ![](http://nepxion.gitee.io/discovery/docs/icon-doc/confirm_24.png) 表示维护中 | ![](http://nepxion.gitee.io/discovery/docs/icon-doc/arrow_up_24.png) 表示不维护，但可用，强烈建议升级 | ![](http://nepxion.gitee.io/discovery/docs/icon-doc/delete_24.png) 表示不维护，不可用，已废弃
 
-- 8.x.x版本（适用于2021.x.x）将继续维护
-- 7.x.x版本（适用于2020.x.x）将继续维护
+- 7.x.x版本（适用于202x.x.x）将继续维护
 - 6.x.x版本（同时适用于Finchley、Greenwich和Hoxton）将继续维护
 - 5.x.x版本（适用于Greenwich）已废弃
 - 4.x.x版本（适用于Finchley）已废弃
@@ -298,8 +288,16 @@ Discovery【探索】微服务框架，基于Spring Cloud & Spring Cloud Alibaba
 | 基础组件 | [![Guava](https://img.shields.io/maven-central/v/com.google.guava/guava.svg?label=Guava)](https://search.maven.org/artifact/com.google.guava/guava)<br>[![Caffeine](https://img.shields.io/maven-central/v/com.github.ben-manes.caffeine/caffeine.svg?label=Caffeine)](https://search.maven.org/artifact/com.github.ben-manes.caffeine/caffeine)<br>[![Dom4J](https://img.shields.io/maven-central/v/org.dom4j/dom4j.svg?label=Dom4J)](https://search.maven.org/artifact/org.dom4j/dom4j)<br>[![Swagger](https://img.shields.io/maven-central/v/io.swagger/swagger-models?label=Swagger)](https://search.maven.org/artifact/io.swagger/swagger-models)<br>[![Swagger](https://img.shields.io/maven-central/v/io.springfox/springfox-swagger2?label=SpringFox%20Swagger)](https://search.maven.org/artifact/io.springfox/springfox-swagger2) |
 | 注册配置组件 | [![Apollo](https://img.shields.io/maven-central/v/com.ctrip.framework.apollo/apollo-client.svg?label=Apollo)](https://search.maven.org/artifact/com.ctrip.framework.apollo/apollo-client)<br>[![Zookeeper Curator](https://img.shields.io/maven-central/v/org.apache.curator/curator-framework.svg?label=Zookeeper%20Curator)](https://search.maven.org/artifact/org.apache.curator/curator-framework)<br>[![Consul](https://img.shields.io/maven-central/v/com.ecwid.consul/consul-api.svg?label=Consul)](https://search.maven.org/artifact/com.ecwid.consul/consul-api)<br>[![JEtcd](https://img.shields.io/maven-central/v/io.etcd/jetcd-core.svg?label=JEtcd)](https://search.maven.org/artifact/io.etcd/jetcd-core)<br>[![Nacos](https://img.shields.io/maven-central/v/com.alibaba.nacos/nacos-client.svg?label=Nacos)](https://search.maven.org/artifact/com.alibaba.nacos/nacos-client)<br>[![Eureka](https://img.shields.io/maven-central/v/com.netflix.eureka/eureka-client.svg?label=Eureka)](https://search.maven.org/artifact/com.netflix.eureka/eureka-client)<br>[![Redis](https://img.shields.io/maven-central/v/org.springframework.data/spring-data-redis.svg?label=Redis)](https://search.maven.org/artifact/org.springframework.data/spring-data-redis) |
 | 防护组件 | [![Sentinel](https://img.shields.io/maven-central/v/com.alibaba.csp/sentinel-core.svg?label=Sentinel)](https://search.maven.org/artifact/com.alibaba.csp/sentinel-core)<br>[![Hystrix](https://img.shields.io/maven-central/v/com.netflix.hystrix/hystrix-core.svg?label=Hystrix)](https://search.maven.org/artifact/com.netflix.hystrix/hystrix-core) |
-| 监控组件 | [![OpenTelemetry](https://img.shields.io/maven-central/v/io.opentelemetry/opentelemetry-api.svg?label=OpenTelemetry)](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-api)<br>[![OpenTracing](https://img.shields.io/maven-central/v/io.opentracing/opentracing-api.svg?label=OpenTracing)](https://search.maven.org/artifact/io.opentracing/opentracing-api)<br>[![OpenTracing%20Spring%20Cloud](https://img.shields.io/maven-central/v/io.opentracing.contrib/opentracing-spring-cloud-starter.svg?label=OpenTracing%20Spring%20Cloud)](https://search.maven.org/artifact/io.opentracing.contrib/opentracing-spring-cloud-starter)<br>[![OpenTracing%20Jaeger](https://img.shields.io/maven-central/v/io.opentracing.contrib/opentracing-spring-jaeger-starter.svg?label=OpenTracing%20Jaeger)](https://search.maven.org/artifact/io.opentracing.contrib/opentracing-spring-jaeger-starter)<br>[![OpenTracing%20Concurrent](https://img.shields.io/maven-central/v/io.opentracing.contrib/opentracing-concurrent.svg?label=OpenTracing%20Concurrent)](https://search.maven.org/artifact/io.opentracing.contrib/opentracing-concurrent)<br>[![SkyWalking](https://img.shields.io/maven-central/v/org.apache.skywalking/apm-toolkit-opentracing.svg?label=SkyWalking)](https://search.maven.org/artifact/org.apache.skywalking/apm-toolkit-opentracing)<br>[![Spring Boot](https://img.shields.io/maven-central/v/de.codecentric/spring-boot-admin-dependencies.svg?label=Spring%20Boot%20Admin)](https://search.maven.org/artifact/de.codecentric/spring-boot-admin-dependencies) |
+| 监控组件 | [![OpenTelemetry](https://img.shields.io/maven-central/v/io.opentelemetry/opentelemetry-api.svg?label=OpenTelemetry)](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-api)<br>[![OpenTracing](https://img.shields.io/maven-central/v/io.opentracing/opentracing-api.svg?label=OpenTracing)](https://search.maven.org/artifact/io.opentracing/opentracing-api)<br>[![OpenTracing%20Sping%20Cloud](https://img.shields.io/maven-central/v/io.opentracing.contrib/opentracing-spring-cloud-starter.svg?label=OpenTracing%20Sping%20Cloud)](https://search.maven.org/artifact/io.opentracing.contrib/opentracing-spring-cloud-starter)<br>[![OpenTracing%20Jaeger](https://img.shields.io/maven-central/v/io.opentracing.contrib/opentracing-spring-jaeger-starter.svg?label=OpenTracing%20Jaeger)](https://search.maven.org/artifact/io.opentracing.contrib/opentracing-spring-jaeger-starter)<br>[![OpenTracing%20Concurrent](https://img.shields.io/maven-central/v/io.opentracing.contrib/opentracing-concurrent.svg?label=OpenTracing%20Concurrent)](https://search.maven.org/artifact/io.opentracing.contrib/opentracing-concurrent)<br>[![SkyWalking](https://img.shields.io/maven-central/v/org.apache.skywalking/apm-toolkit-opentracing.svg?label=SkyWalking)](https://search.maven.org/artifact/org.apache.skywalking/apm-toolkit-opentracing)<br>[![Spring Boot](https://img.shields.io/maven-central/v/de.codecentric/spring-boot-admin-dependencies.svg?label=Spring%20Boot%20Admin)](https://search.maven.org/artifact/de.codecentric/spring-boot-admin-dependencies) |
 | Spring组件 | [![Alibaba Spring](https://img.shields.io/maven-central/v/com.alibaba.spring/spring-context-support.svg?label=Alibaba%20Spring)](https://search.maven.org/artifact/com.alibaba.spring/spring-context-support)<br>[![Spring Cloud](https://img.shields.io/maven-central/v/org.springframework.cloud/spring-cloud-dependencies.svg?label=Spring%20Cloud)](https://search.maven.org/artifact/org.springframework.cloud/spring-cloud-dependencies)<br>[![Spring Cloud Alibaba](https://img.shields.io/maven-central/v/com.alibaba.cloud/spring-cloud-alibaba-dependencies.svg?label=Spring%20Cloud%20Alibaba)](https://search.maven.org/artifact/com.alibaba.cloud/spring-cloud-alibaba-dependencies)<br>[![Spring Boot](https://img.shields.io/maven-central/v/org.springframework.boot/spring-boot-dependencies.svg?label=Spring%20Boot)](https://search.maven.org/artifact/org.springframework.boot/spring-boot-dependencies) |
+
+### 郑重致谢
+- 感谢阿里巴巴中间件Nacos、Sentinel和Spring Cloud Alibaba团队，尤其是Nacos负责人@彦林、@于怀，Sentinel负责人@宿何、@子衿，Spring Cloud Alibaba负责人@良名、@小马哥、@洛夜、@亦盏的技术支持
+- 感谢携程Apollo团队，尤其是@宋顺的技术支持
+- 感谢所有Committers和Contributors
+- 感谢所有帮忙分析和定位问题的同学
+- 感谢所有提出宝贵建议和意见的同学
+- 感谢支持和使用本框架的公司和企业
 
 ### 企业用户
 不完全统计，目前社区开源项目（包括本框架以及关联框架或组件）已经被如下公司使用或者调研
@@ -338,15 +336,8 @@ Discovery【探索】微服务框架，基于Spring Cloud & Spring Cloud Alibaba
       <td width="20%"><img style="max-height:75%;max-width:75%;" src="http://nepxion.gitee.io/discovery/docs/logo-doc/恒大.png"></td>
       <td width="20%"><img style="max-height:75%;max-width:75%;" src="http://nepxion.gitee.io/discovery/docs/logo-doc/碧桂园.png"></td>
       <td width="20%"><img style="max-height:75%;max-width:75%;" src="http://nepxion.gitee.io/discovery/docs/logo-doc/华住会.png"></td>
-      <td width="20%"><img style="max-height:75%;max-width:75%;" src="http://nepxion.gitee.io/discovery/docs/logo-doc/城家.png"></td>
-      <td width="20%"><img style="max-height:75%;max-width:75%;" src="http://nepxion.gitee.io/discovery/docs/logo-doc/南瑞.png"></td>
-    </tr>
-    <tr align="center">
-      <td width="20%"><img style="max-height:75%;max-width:75%;" src="http://nepxion.gitee.io/discovery/docs/logo-doc/蔚来汽车.png"></td>
       <td width="20%"><img style="max-height:75%;max-width:75%;" src="http://nepxion.gitee.io/discovery/docs/logo-doc/东风汽车.png"></td>
-      <td width="20%"><img style="max-height:75%;max-width:75%;" src="http://nepxion.gitee.io/discovery/docs/logo-doc/吉利汽车.png"></td>
-      <td width="20%"><img style="max-height:75%;max-width:75%;" src="http://nepxion.gitee.io/discovery/docs/logo-doc/海纳新思.png"></td>
-      <td width="20%"><img style="max-height:75%;max-width:75%;" src="http://nepxion.gitee.io/discovery/docs/logo-doc/路特斯科技.png"></td>
+      <td width="20%"><img style="max-height:75%;max-width:75%;" src="http://nepxion.gitee.io/discovery/docs/logo-doc/南瑞.png"></td>
     </tr>
     <tr align="center">
       <td width="20%"><img style="max-height:75%;max-width:75%;" src="http://nepxion.gitee.io/discovery/docs/logo-doc/宇信.png"></td>
@@ -356,11 +347,11 @@ Discovery【探索】微服务框架，基于Spring Cloud & Spring Cloud Alibaba
       <td width="20%"><img style="max-height:75%;max-width:75%;" src="http://nepxion.gitee.io/discovery/docs/logo-doc/瑞幸.png"></td>
     </tr>
     <tr align="center">
+      <td width="20%"><img style="max-height:75%;max-width:75%;" src="http://nepxion.gitee.io/discovery/docs/logo-doc/城家.png"></td>
       <td width="20%"><img style="max-height:75%;max-width:75%;" src="http://nepxion.gitee.io/discovery/docs/logo-doc/海尔.png"></td>
       <td width="20%"><img style="max-height:75%;max-width:75%;" src="http://nepxion.gitee.io/discovery/docs/logo-doc/三七互娱.png"></td>
       <td width="20%"><img style="max-height:75%;max-width:75%;" src="http://nepxion.gitee.io/discovery/docs/logo-doc/诺亚财富.png"></td>
       <td width="20%"><img style="max-height:75%;max-width:75%;" src="http://nepxion.gitee.io/discovery/docs/logo-doc/快盈.png"></td>
-      <td width="20%"><img style="max-height:75%;max-width:75%;" src="http://nepxion.gitee.io/discovery/docs/logo-doc/链上科技.png"></td>
      </tr>
     <tr align="center">
       <td width="20%"><img style="max-height:75%;max-width:75%;" src="http://nepxion.gitee.io/discovery/docs/logo-doc/喜马拉雅.png"></td>
@@ -512,21 +503,13 @@ Discovery【探索】微服务框架，基于Spring Cloud & Spring Cloud Alibaba
   </tbody>
 </table>
 
-为提供更好的专业级服务，请更多已经使用本框架的公司和企业联系我，并希望在[Github Issues](https://github.com/Nepxion/Discovery/issues/56)上登记
+![](http://nepxion.gitee.io/discovery/docs/icon-doc/edit_32.png) 为提供更好的专业级服务，请更多已经使用本框架的公司和企业联系我，并希望在[Github Issues](https://github.com/Nepxion/Discovery/issues/56)上登记
 
-### 落地案例
-- 某大型银行信用卡新核心系统在生产环境接入Nepxion Discovery框架的服务实例数（包括异地双活，同城双活，多机房全部汇总）将近10000个
-- 某大型互联网教育公司在生产环境接入Nepxion Discovery框架的服务实例数截至到2021年2月已达到2600多个，基本接入完毕
+![](http://nepxion.gitee.io/discovery/docs/icon-doc/chart_bar_32.png) 某大型银行信用卡新核心系统在生产环境接入Nepxion Discovery框架的服务实例数（包括异地双活，同城双活，多机房全部汇总）将近10000个
+
+![](http://nepxion.gitee.io/discovery/docs/icon-doc/chart_bar_32.png) 某大型互联网教育公司在生产环境接入Nepxion Discovery框架的服务实例数截至到2021年2月已达到2600多个，基本接入完毕
 
 <img src="http://nepxion.gitee.io/discovery/docs/discovery-doc/Result.jpg"/>
-
-### 郑重致谢
-- 感谢阿里巴巴中间件Nacos、Sentinel和Spring Cloud Alibaba团队，尤其是Nacos负责人@彦林、@于怀，Sentinel负责人@宿何、@子衿，Spring Cloud Alibaba负责人@良名、@小马哥、@洛夜、@亦盏的技术支持
-- 感谢携程Apollo团队，尤其是@宋顺的技术支持
-- 感谢所有Committers和Contributors
-- 感谢所有帮忙分析和定位问题的同学
-- 感谢所有提出宝贵建议和意见的同学
-- 感谢支持和使用本框架的公司和企业
 
 ### 请联系我
 微信、钉钉、公众号和文档
@@ -535,15 +518,11 @@ Discovery【探索】微服务框架，基于Spring Cloud & Spring Cloud Alibaba
 
 ## 目录
 - [简介](#简介)
-    - [作者简介](#作者简介)
-    - [商业合作](#商业合作)
-    - [入门资料](#入门资料)
     - [诞生故事](#诞生故事)
     - [功能概述](#功能概述)
     - [版本列表](#版本列表)
-    - [企业用户](#企业用户)
-    - [落地案例](#落地案例)
     - [郑重致谢](#郑重致谢)
+    - [企业用户](#企业用户)
     - [请联系我](#请联系我)
 - [主页链接](#主页链接)
     - [源码主页](#源码主页)
@@ -607,7 +586,7 @@ Discovery【探索】微服务框架，基于Spring Cloud & Spring Cloud Alibaba
 - [全链路蓝绿灰度发布容灾](#全链路蓝绿灰度发布容灾)
     - [发布失败下的版本故障转移](#发布失败下的版本故障转移)
     - [并行发布下的版本偏好](#并行发布下的版本偏好)
-- [服务无损下线](#服务无损下线)
+- [服务下线场景下全链路蓝绿灰度发布](#服务下线场景下全链路蓝绿灰度发布)
     - [全局唯一ID屏蔽](#全局唯一ID屏蔽)
     - [IP地址和端口屏蔽](#IP地址和端口屏蔽)
 - [异步场景下全链路蓝绿灰度发布](#异步场景下全链路蓝绿灰度发布)
@@ -641,7 +620,6 @@ Discovery【探索】微服务框架，基于Spring Cloud & Spring Cloud Alibaba
 - [全链路环境隔离和路由](#全链路环境隔离和路由)
     - [全链路环境隔离](#全链路环境隔离)
     - [全链路环境路由](#全链路环境路由)
-- [全链路区域调试路由](#全链路区域调试路由)
 - [全链路可用区亲和性隔离和路由](#全链路可用区亲和性隔离和路由)
     - [全链路可用区亲和性隔离](#全链路可用区亲和性隔离)
     - [全链路可用区亲和性路由](#全链路可用区亲和性路由)
@@ -2846,7 +2824,7 @@ spring.application.strategy.version.failover.enabled=true
 spring.application.strategy.version.prefer.enabled=true
 ```
 
-## 服务无损下线
+## 服务下线场景下全链路蓝绿灰度发布
 服务下线场景下，由于Ribbon负载均衡组件存在着缓存机制，当被提供端服务实例已经下线，而消费端服务实例还暂时缓存着它，直到下个心跳周期才会把已下线的服务实例剔除，在此期间，如果发生调用，会造成流量有损
 
 框架提供流量的实时性绝对无损策略。采用下线之前，把服务实例添加到屏蔽名单中，负载均衡不会去寻址该服务实例。下线之后，清除该名单。实现该方式，需要通过DevOps调用配置中心的Open API推送或者在配置中心界面手工修改
@@ -2937,9 +2915,9 @@ n-d-id-blacklist={"discovery-guide-service-a":"20210601-222214-909-1146-372-698"
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <rule>
-    <strategy-blacklist>
+    <strategy>
         <address>{"discovery-guide-service-a":"3001", "discovery-guide-service-b":"4001"}</address>
-    </strategy-blacklist>
+    </strategy>
 </rule>
 ```
 
@@ -2971,18 +2949,6 @@ n-d-id-blacklist={"discovery-guide-service-a":"20210601-222214-909-1146-372-698"
 n-d-address-blacklist=3001
 n-d-address-blacklist={"discovery-guide-service-a":"3001", "discovery-guide-service-b":"3001"}
 ```
-
-![](http://nepxion.gitee.io/discovery/docs/icon-doc/information.png) 最佳实践：
-- 运维平台下线某个服务实例之前，调用Nepxion Discovery Console平台BlacklistEndpoint如下API，把需要下线的服务实例根据IP地址和端口添加进黑名单，返回全局唯一的该服务实例的UUId，即可实现实时无损下线
-```java
-String addBlacklist(String serviceId, String host, int port);
-```
-- 运维平台每添加一个黑名单后，把返回的服务实例的UUId存储下来（推荐用高可用方案来存储）
-- 运维平台下线某个服务实例一段时间之后（大于负载均衡`3`个时钟周期，推荐`5`分钟），调用Nepxion Discovery Console平台BlacklistEndpoint如下API，把过期的服务实例根据UUId从黑名单里删除掉
-```java
-boolean deleteBlacklist(String serviceId, String serviceUUId);
-```
-需要注意，UUId全局唯一，同样的服务实例重启注册后，UUId会重新产生，不会重复，但追加过多的UUId，虽然不会影响功能，但UUId堆积过多，可能会影响配置订阅的响应效率
 
 ## 异步场景下全链路蓝绿灰度发布
 Discovery框架存在着如下全链路传递上下文的场景，包括
@@ -3018,8 +2984,6 @@ ThreadLocal的作用是提供线程内的局部变量，在多线程环境下访
 - Single Thread
 - Thread Pool
 - SLF4J MDC
-
-![](http://nepxion.gitee.io/discovery/docs/icon-doc/warning.png) 需要注意，DiscoveryAgent不支持含有Lambda语法的异步代码。使用Lambda去实现的Runnable类会生成一个匿名内部类，这个匿名内部类和DiscoveryAgent使用的是不同的类加载器，导致DiscoveryAgent无法去修改Lambda表达式生成的Runnable的实现类
 
 #### 异步跨线程DiscoveryAgent获取
 插件获取方式有两种方式
@@ -4339,57 +4303,6 @@ spring.application.strategy.environment.route=common
 - 如果没有传递环境Header（n-d-env）值，则执行Spring Cloud Ribbon轮询策略
 - 环境隔离和路由适用于测试环境，性能压测等场景
 
-## 全链路区域调试路由
-在区域调试路由执行的时候，当未对服务指定访问区域的时候，路由到事先指定的区域。该功能属于静态隔离和动态路由结合在一起的灵活方案，适用于开发环境（个人电脑环境）在测试环境（线上环境）进行联调，同时当多套个人环境接入时候，可以保护不同的个人环境间不会彼此调用
-
-![](http://nepxion.gitee.io/discovery/docs/discovery-doc/IsolationRegion.jpg)
-
-在下面的全链路调用路径中
-```
-A服务 -> B服务 -> C服务 -> D服务
-```
-其中，A服务和B服务在开发环境上，C服务和D服务在测试环境上，希望A服务调用B服务的时候，只会走本地电脑，不会去访问测试环境的B服务，也不会去访问其它本地电脑的B服务；B服务调用C服务的时候，只会去访问测试环境的C服务，C服务调用D服务的时候，也只是在测试环境的区域内
-
-只需要通过如下步骤：
-
-- A服务和B服务的区域（Region）元数据配置为MyDEV（本地电脑的名称或者可以区别其它电脑的特征值），如下
-```
-spring.cloud.nacos.discovery.metadata.region=MyDEV
-```
-- C服务和D服务的区域（Region）元数据配置为FAT（测试环境），如下
-```
-spring.cloud.nacos.discovery.metadata.region=FAT
-```
-- B服务和C服务，加上如下配置，保证B服务只访问测试环境上的C服务，C服务只访问测试环境上的D服务
-```
-# 开启和关闭跨区域路由
-spring.application.strategy.region.route.enabled=true
-# 路由的目标区域
-spring.application.strategy.region.route=FAT
-```
-- 前端传入B服务的区域Header。由于A服务是调用起点，所以不需要配置A服务的值
-```
-n-d-region={"service-b":"MyDEV"}
-```
-
-扩展场景：
-
-如果希望C服务访问的是开发环境上的D服务，那么变成
-```
-A服务（本地环境） -> B服务（本地环境） -> C服务（测试环境） -> D服务（本地环境）
-```
-
-前端传入区域Header改为
-
-```
-n-d-region={"service-b":"MyDEV", "service-d":"MyDEV"}
-```
-
-![](http://nepxion.gitee.io/discovery/docs/icon-doc/information.png) 总结
-
-- 要调用测试环境中的服务，包括开发环境调用测试环境和测试环境中的服务间调用，必须加上`开启和关闭跨区域路由`和`路由的目标区域`的两个配置
-- 要调用开发环境中的服务，包括测试环境回调开发环境和开发环境中的服务间调用，必须加上`n-d-region`的Header进行动态路由
-
 ## 全链路可用区亲和性隔离和路由
 
 ![](http://nepxion.gitee.io/discovery/docs/discovery-doc/IsolationZone.jpg)
@@ -4957,18 +4870,6 @@ n-d-service-zone=[zone1]
 n-d-version=[{"discovery-guide-service-a":"1.0", "discovery-guide-service-b":"1.0"}]
 ------------------------------------------------------------
 ```
-
-蓝绿灰度埋点失效问题的解决办法
-
-排除引用配置不正确的因素之外，蓝绿灰度埋点失效问题一般都是服务中带有异步调用的场景引起的
-
-网关 -> A服务 -> B服务的调用链，假设A服务的日志中，`Input Header Information`中`n-d-version`带有Json值，而`Output Header Information`不带有Json值，说明A服务收到了网关传递过来的Header，但是在转发中丢失了，可能的原因和解决方案总结如下：
-
-① Spring Cloud H版（或者以下）引入了Hystrix插件，并且启用了线程池隔离模式，转发过程中，因为线程切换，导致Header转发丢失。通过[异步场景下DiscoveryAgent解决方案](#异步场景下DiscoveryAgent解决方案)或者[异步场景下Hystrix线程池隔离解决方案](#异步场景下Hystrix线程池隔离解决方案)来解决
-
-② Spring Cloud 2020版（或者以上）的负载均衡器是基于WebFlux技术的，响应式方式也会触发线程切换，导致Header转发丢失。通过[异步场景下DiscoveryAgent解决方案](#异步场景下DiscoveryAgent解决方案)来解决
-
-③ 业务代码里，Feign或者RestTemplate调用代码放在异步场景中，因为线程切换，导致Header转发丢失。通过[异步场景下DiscoveryAgent解决方案](#异步场景下DiscoveryAgent解决方案)来解决
 
 #### Sentinel熔断埋点调用链监控
 
@@ -5813,16 +5714,6 @@ spring.application.strategy.sentinel.request.origin.key=n-d-service-id
 # 流量路由到指定的环境下。不允许为保留值default，缺失则默认为common
 spring.application.strategy.environment.route=common
 
-# 打开和关闭流量区域路由功能。当未对服务指定访问区域的时候，路由到事先指定的区域。缺失则默认为false
-# 使用场景示例：
-# 开发环境（个人电脑环境）在测试环境（线上环境）进行联调
-# 访问路径为A服务 -> B服务 -> C服务，A服务和B服务在开发环境上，C服务在测试环境上
-# 调用时候，在B服务上进行如下两个配置，并在最前端传入的Header（n-d-region）指定为B的开发环境区域（用来保证A服务和B服务只在开发环境调用），而B服务会自动路由调用到测试环境上的C服务实例，但不会路由到其它个人电脑的C服务实例
-# 该功能的意义，个人电脑环境可以接入到测试环境联调，当多套个人环境接入时候，可以保护不同的个人环境间不会彼此调用
-# spring.application.strategy.region.route.enabled=true
-# 流量路由到指定的区域下。如果上面开关打开，则指定区域不允许为空，否则报错
-# spring.application.strategy.region.route=qa
-
 # 启动和关闭可用区亲和性，即同一个可用区的服务才能调用，同一个可用区的条件是调用端实例和提供端实例的元数据Metadata的zone配置值必须相等。缺失则默认为false
 spring.application.strategy.zone.affinity.enabled=true
 # 启动和关闭可用区亲和性失败后的路由，即调用端实例没有找到同一个可用区的提供端实例的时候，当开关打开，可路由到其它可用区或者不归属任何可用区，当开关关闭，则直接调用失败。缺失则默认为true
@@ -5997,16 +5888,6 @@ spring.application.strategy.sentinel.param.flow.path=classpath:sentinel-param-fl
 
 # 流量路由到指定的环境下。不允许为保留值default，缺失则默认为common
 spring.application.strategy.environment.route=common
-
-# 打开和关闭流量区域路由功能。当未对服务指定访问区域的时候，路由到事先指定的区域。缺失则默认为false
-# 使用场景示例：
-# 开发环境（个人电脑环境）在测试环境（线上环境）进行联调
-# 访问路径为A服务 -> B服务 -> C服务，A服务和B服务在开发环境上，C服务在测试环境上
-# 调用时候，在B服务上进行如下两个配置，并在最前端传入的Header（n-d-region）指定为B的开发环境区域（用来保证A服务和B服务只在开发环境调用），而B服务会自动路由调用到测试环境上的C服务实例，但不会路由到其它个人电脑的C服务实例
-# 该功能的意义，个人电脑环境可以接入到测试环境联调，当多套个人环境接入时候，可以保护不同的个人环境间不会彼此调用
-# spring.application.strategy.region.route.enabled=true
-# 流量路由到指定的区域下。如果上面开关打开，则指定区域不允许为空，否则报错
-# spring.application.strategy.region.route=qa
 
 # 启动和关闭可用区亲和性，即同一个可用区的服务才能调用，同一个可用区的条件是调用端实例和提供端实例的元数据Metadata的zone配置值必须相等。缺失则默认为false
 spring.application.strategy.zone.affinity.enabled=true
@@ -6198,16 +6079,6 @@ spring.application.strategy.sentinel.param.flow.path=classpath:sentinel-param-fl
 
 # 流量路由到指定的环境下。不允许为保留值default，缺失则默认为common
 spring.application.strategy.environment.route=common
-
-# 打开和关闭流量区域路由功能。当未对服务指定访问区域的时候，路由到事先指定的区域。缺失则默认为false
-# 使用场景示例：
-# 开发环境（个人电脑环境）在测试环境（线上环境）进行联调
-# 访问路径为A服务 -> B服务 -> C服务，A服务和B服务在开发环境上，C服务在测试环境上
-# 调用时候，在B服务上进行如下两个配置，并在最前端传入的Header（n-d-region）指定为B的开发环境区域（用来保证A服务和B服务只在开发环境调用），而B服务会自动路由调用到测试环境上的C服务实例，但不会路由到其它个人电脑的C服务实例
-# 该功能的意义，个人电脑环境可以接入到测试环境联调，当多套个人环境接入时候，可以保护不同的个人环境间不会彼此调用
-# spring.application.strategy.region.route.enabled=true
-# 流量路由到指定的区域下。如果上面开关打开，则指定区域不允许为空，否则报错
-# spring.application.strategy.region.route=qa
 
 # 启动和关闭可用区亲和性，即同一个可用区的服务才能调用，同一个可用区的条件是调用端实例和提供端实例的元数据Metadata的zone配置值必须相等。缺失则默认为false
 spring.application.strategy.zone.affinity.enabled=true

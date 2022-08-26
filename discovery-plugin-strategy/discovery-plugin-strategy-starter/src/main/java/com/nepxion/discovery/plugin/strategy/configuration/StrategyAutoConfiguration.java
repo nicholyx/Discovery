@@ -46,7 +46,6 @@ import com.nepxion.discovery.plugin.strategy.monitor.DefaultStrategyLogger;
 import com.nepxion.discovery.plugin.strategy.monitor.StrategyAlarm;
 import com.nepxion.discovery.plugin.strategy.monitor.StrategyLogger;
 import com.nepxion.discovery.plugin.strategy.monitor.StrategyMonitorContext;
-import com.nepxion.discovery.plugin.strategy.monitor.StrategyTracerContextListener;
 import com.nepxion.discovery.plugin.strategy.wrapper.StrategyWrapper;
 
 @Configuration
@@ -106,12 +105,6 @@ public class StrategyAutoConfiguration {
     @ConditionalOnMissingBean
     public StrategyWrapper strategyWrapper() {
         return new StrategyWrapper();
-    }
-
-    @Bean
-    @ConditionalOnProperty(value = StrategyConstant.SPRING_APPLICATION_STRATEGY_MONITOR_ENABLED, matchIfMissing = false)
-    public StrategyTracerContextListener strategyTracerContextListener() {
-        return new StrategyTracerContextListener();
     }
 
     @Bean

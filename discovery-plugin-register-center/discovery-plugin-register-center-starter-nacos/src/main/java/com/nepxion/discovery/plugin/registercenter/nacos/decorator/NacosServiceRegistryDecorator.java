@@ -15,7 +15,6 @@ import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.core.env.ConfigurableEnvironment;
 
 import com.alibaba.cloud.nacos.NacosDiscoveryProperties;
-import com.alibaba.cloud.nacos.NacosServiceManager;
 import com.alibaba.cloud.nacos.registry.NacosServiceRegistry;
 import com.nepxion.discovery.plugin.framework.context.PluginContextAware;
 import com.nepxion.discovery.plugin.framework.listener.register.RegisterListenerExecutor;
@@ -27,8 +26,8 @@ public class NacosServiceRegistryDecorator extends NacosServiceRegistry {
     private ConfigurableApplicationContext applicationContext;
     private ConfigurableEnvironment environment;
 
-    public NacosServiceRegistryDecorator(NacosServiceManager nacosServiceManager, NacosDiscoveryProperties nacosDiscoveryProperties, NacosServiceRegistry serviceRegistry, ConfigurableApplicationContext applicationContext) {
-        super(nacosServiceManager, nacosDiscoveryProperties);
+    public NacosServiceRegistryDecorator(NacosDiscoveryProperties nacosDiscoveryProperties, NacosServiceRegistry serviceRegistry, ConfigurableApplicationContext applicationContext) {
+        super(nacosDiscoveryProperties);
 
         this.serviceRegistry = serviceRegistry;
         this.applicationContext = applicationContext;
