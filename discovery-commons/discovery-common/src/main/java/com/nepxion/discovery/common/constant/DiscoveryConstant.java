@@ -10,7 +10,7 @@ package com.nepxion.discovery.common.constant;
  */
 
 public class DiscoveryConstant {
-    public static final String DISCOVERY_VERSION = "6.15.0-SNAPSHOT";
+    public static final String DISCOVERY_VERSION = "6.16.1";
 
     public static final String NEPXION = "nepxion";
     public static final String NEPXION_UPPERCASE = "NEPXION";
@@ -89,8 +89,16 @@ public class DiscoveryConstant {
     public static final String ADDRESS = "address";
     public static final String VERSION_WEIGHT = "version-weight";
     public static final String REGION_WEIGHT = "region-weight";
+    public static final String VERSION_PREFER = "version-prefer";
+    public static final String VERSION_FAILOVER = "version-failover";
+    public static final String REGION_TRANSFER = "region-transfer";
+    public static final String REGION_FAILOVER = "region-failover";
+    public static final String ENVIRONMENT_FAILOVER = "env-failover";
+    public static final String ZONE_FAILOVER = "zone-failover";
+    public static final String ADDRESS_FAILOVER = "address-failover";
     public static final String ID_BLACKLIST = "id-blacklist";
     public static final String ADDRESS_BLACKLIST = "address-blacklist";
+    public static final String ACTIVE = "active";
 
     public static final String N_D_PREFIX = "n-d-";
     public static final String N_D_SERVICE_PREFIX = "n-d-service";
@@ -105,12 +113,20 @@ public class DiscoveryConstant {
     public static final String N_D_SERVICE_ENVIRONMENT = "n-d-service-env";
     public static final String N_D_SERVICE_ZONE = "n-d-service-zone";
 
+    public static final String N_D_GROUP = "n-d-group";
     public static final String N_D_VERSION = "n-d-version";
     public static final String N_D_REGION = "n-d-region";
     public static final String N_D_ENVIRONMENT = "n-d-env";
     public static final String N_D_ADDRESS = "n-d-address";
     public static final String N_D_VERSION_WEIGHT = "n-d-version-weight";
     public static final String N_D_REGION_WEIGHT = "n-d-region-weight";
+    public static final String N_D_VERSION_PREFER = "n-d-version-prefer";
+    public static final String N_D_VERSION_FAILOVER = "n-d-version-failover";
+    public static final String N_D_REGION_TRANSFER = "n-d-region-transfer";
+    public static final String N_D_REGION_FAILOVER = "n-d-region-failover";
+    public static final String N_D_ENVIRONMENT_FAILOVER = "n-d-env-failover";
+    public static final String N_D_ZONE_FAILOVER = "n-d-zone-failover";
+    public static final String N_D_ADDRESS_FAILOVER = "n-d-address-failover";
     public static final String N_D_ID_BLACKLIST = "n-d-id-blacklist";
     public static final String N_D_ADDRESS_BLACKLIST = "n-d-address-blacklist";
 

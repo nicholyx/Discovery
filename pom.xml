@@ -6,7 +6,7 @@
     <name>Nepxion Discovery</name>
     <packaging>pom</packaging>
     <modelVersion>4.0.0</modelVersion>
-    <version>6.15.0-SNAPSHOT</version>
+    <version>6.16.1</version>
     <description>Nepxion Discovery is a solution for Spring Cloud with blue green, gray, weight, limitation, circuit breaker, degrade, isolation, monitor, tracing, dye, failover, async agent</description>
     <url>http://www.nepxion.com</url>
 
@@ -41,10 +41,10 @@
         <jetcd.version>0.5.11</jetcd.version>
         <opentelemetry.version>1.17.0</opentelemetry.version>
         <opentracing.version>0.33.0</opentracing.version>
-        <skywalking.version>8.11.0</skywalking.version>
+        <skywalking.version>8.12.0</skywalking.version>
         <alibaba.spring.version>1.0.11</alibaba.spring.version>
         <spring.cloud.version>Hoxton.SR12</spring.cloud.version>
-        <spring.cloud.alibaba.version>2.2.8.RELEASE</spring.cloud.alibaba.version>
+        <spring.cloud.alibaba.version>2.2.9.RELEASE</spring.cloud.alibaba.version>
         <spring.boot.version>2.3.12.RELEASE</spring.boot.version>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
